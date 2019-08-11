@@ -25,8 +25,9 @@ class School
   end
   
   def sort 
-    @roster.each do |key, value|
+    @roster.each do |value|
       value.sort()
+    @roster
   end
   
   
