@@ -7,6 +7,9 @@ class School
     @roster = {}
   end
   
+  def roster
+    @roster
+  end
   
     
 end
